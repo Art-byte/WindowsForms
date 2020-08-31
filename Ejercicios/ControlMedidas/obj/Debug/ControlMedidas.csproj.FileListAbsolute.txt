@@ -1,0 +1,10 @@
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\ControlMedidas\bin\Debug\ControlMedidas.exe.config
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\ControlMedidas\bin\Debug\ControlMedidas.exe
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\ControlMedidas\bin\Debug\ControlMedidas.pdb
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\ControlMedidas\obj\Debug\ControlMedidas.csprojAssemblyReference.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\ControlMedidas\obj\Debug\ControlMedidas.Form1.resources
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\ControlMedidas\obj\Debug\ControlMedidas.Properties.Resources.resources
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\ControlMedidas\obj\Debug\ControlMedidas.csproj.GenerateResource.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\ControlMedidas\obj\Debug\ControlMedidas.csproj.CoreCompileInputs.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\ControlMedidas\obj\Debug\ControlMedidas.exe
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\ControlMedidas\obj\Debug\ControlMedidas.pdb
