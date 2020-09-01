@@ -36,8 +36,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblFechaActual = new System.Windows.Forms.Label();
             this.hb = new System.Windows.Forms.GroupBox();
+            this.txbMesConsultado = new System.Windows.Forms.TextBox();
+            this.txbAnios = new System.Windows.Forms.TextBox();
+            this.dtFechaIngreso = new System.Windows.Forms.DateTimePicker();
             this.txbEmpleado = new System.Windows.Forms.TextBox();
             this.cbCargo = new System.Windows.Forms.ComboBox();
             this.btnProcesar = new System.Windows.Forms.Button();
@@ -69,9 +72,6 @@
             this.lblTotalDescuentos = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.lblTotalNeto = new System.Windows.Forms.Label();
-            this.dtFechaIngreso = new System.Windows.Forms.DateTimePicker();
-            this.txbAnios = new System.Windows.Forms.TextBox();
-            this.txbMesConsultado = new System.Windows.Forms.TextBox();
             this.hb.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -153,14 +153,14 @@
             this.label8.Text = "AÑOS DE SERVICIO";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // label9
+            // lblFechaActual
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(618, 56);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(37, 13);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "Fecha";
+            this.lblFechaActual.AutoSize = true;
+            this.lblFechaActual.Location = new System.Drawing.Point(618, 56);
+            this.lblFechaActual.Name = "lblFechaActual";
+            this.lblFechaActual.Size = new System.Drawing.Size(37, 13);
+            this.lblFechaActual.TabIndex = 11;
+            this.lblFechaActual.Text = "Fecha";
             // 
             // hb
             // 
@@ -169,7 +169,7 @@
             this.hb.Controls.Add(this.dtFechaIngreso);
             this.hb.Controls.Add(this.txbEmpleado);
             this.hb.Controls.Add(this.cbCargo);
-            this.hb.Controls.Add(this.label9);
+            this.hb.Controls.Add(this.lblFechaActual);
             this.hb.Controls.Add(this.label2);
             this.hb.Controls.Add(this.label8);
             this.hb.Controls.Add(this.label3);
@@ -183,6 +183,29 @@
             this.hb.TabIndex = 12;
             this.hb.TabStop = false;
             // 
+            // txbMesConsultado
+            // 
+            this.txbMesConsultado.Location = new System.Drawing.Point(466, 104);
+            this.txbMesConsultado.Name = "txbMesConsultado";
+            this.txbMesConsultado.Size = new System.Drawing.Size(127, 20);
+            this.txbMesConsultado.TabIndex = 29;
+            // 
+            // txbAnios
+            // 
+            this.txbAnios.Location = new System.Drawing.Point(621, 104);
+            this.txbAnios.Name = "txbAnios";
+            this.txbAnios.Size = new System.Drawing.Size(118, 20);
+            this.txbAnios.TabIndex = 28;
+            // 
+            // dtFechaIngreso
+            // 
+            this.dtFechaIngreso.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtFechaIngreso.Location = new System.Drawing.Point(466, 55);
+            this.dtFechaIngreso.Name = "dtFechaIngreso";
+            this.dtFechaIngreso.Size = new System.Drawing.Size(127, 20);
+            this.dtFechaIngreso.TabIndex = 27;
+            this.dtFechaIngreso.ValueChanged += new System.EventHandler(this.dtFechaIngreso_ValueChanged);
+            // 
             // txbEmpleado
             // 
             this.txbEmpleado.Location = new System.Drawing.Point(32, 58);
@@ -193,6 +216,11 @@
             // cbCargo
             // 
             this.cbCargo.FormattingEnabled = true;
+            this.cbCargo.Items.AddRange(new object[] {
+            "Coordinador",
+            "Jefe",
+            "Capacitador",
+            "Asistente"});
             this.cbCargo.Location = new System.Drawing.Point(32, 104);
             this.cbCargo.Name = "cbCargo";
             this.cbCargo.Size = new System.Drawing.Size(331, 21);
@@ -216,6 +244,7 @@
             this.btnCancelar.TabIndex = 14;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnSalir
             // 
@@ -225,6 +254,7 @@
             this.btnSalir.TabIndex = 15;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // groupBox1
             // 
@@ -472,28 +502,6 @@
             this.lblTotalNeto.TabIndex = 25;
             this.lblTotalNeto.Text = "$0.00";
             // 
-            // dtFechaIngreso
-            // 
-            this.dtFechaIngreso.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtFechaIngreso.Location = new System.Drawing.Point(466, 55);
-            this.dtFechaIngreso.Name = "dtFechaIngreso";
-            this.dtFechaIngreso.Size = new System.Drawing.Size(127, 20);
-            this.dtFechaIngreso.TabIndex = 27;
-            // 
-            // txbAnios
-            // 
-            this.txbAnios.Location = new System.Drawing.Point(621, 104);
-            this.txbAnios.Name = "txbAnios";
-            this.txbAnios.Size = new System.Drawing.Size(118, 20);
-            this.txbAnios.TabIndex = 28;
-            // 
-            // txbMesConsultado
-            // 
-            this.txbMesConsultado.Location = new System.Drawing.Point(466, 104);
-            this.txbMesConsultado.Name = "txbMesConsultado";
-            this.txbMesConsultado.Size = new System.Drawing.Size(127, 20);
-            this.txbMesConsultado.TabIndex = 29;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -541,7 +549,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblFechaActual;
         private System.Windows.Forms.GroupBox hb;
         private System.Windows.Forms.TextBox txbEmpleado;
         private System.Windows.Forms.ComboBox cbCargo;

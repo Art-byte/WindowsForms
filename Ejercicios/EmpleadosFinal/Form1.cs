@@ -29,7 +29,8 @@ namespace EmpleadosFinal
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            mostrarFecha();
+            mostrarMesActual();
         }
 
         private void btnProcesar_Click(object sender, EventArgs e)
@@ -50,9 +51,65 @@ namespace EmpleadosFinal
             lblSueldoBasico.Text = pj.determinaSueldoBasico().ToString("$0.00");
             lblGratificacion.Text = pj.determinaGratificacion().ToString("$0.00");
             lblComision.Text = pj.determinaComision().ToString("$0.00");
-            lblAFP.Text = pj.determinaAFP().ToString();
+            lblAFP.Text = pj.determinaAFP().ToString("$0.00");
+            lblCooperativa.Text = pj.determinaDescuentoCooperativa().ToString("$0.00");
+            lblSeguro.Text = pj.determinaSeguro().ToString("$0.00");
+
+            lblTotalIngresos.Text = pj.calculaTotalIngresos().ToString("$0.00");
+            lblTotalDescuentos.Text = pj.calculaTotalDescuentos().ToString("$0.00");
+            lblTotalAportaciones.Text = pj.calculaTotalAportaciones().ToString("$0.00");
+
+            lblTotalNeto.Text = pj.determinaNeto().ToString("$0.00");
+
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            txbEmpleado.Clear();
+            dtFechaIngreso.Value = DateTime.Now;
+            cbCargo.Text = "(Seleccione cargo)";
+            txbMesConsultado.Clear();
+            txbAnios.Clear();
+
+            lblSueldoBasico.Text = (0).ToString("$0.00");
+            lblGratificacion.Text = (0).ToString("$0.00");
+            lblComision.Text = (0).ToString("$0.00");
+            lblAFP.Text = (0).ToString("$0.00");
+            lblCooperativa.Text = (0).ToString("$0.00");
+            lblSeguro.Text = (0).ToString("$0.00");
+
+            lblTotalAportaciones.Text = (0).ToString("$0.00");
+            lblTotalDescuentos.Text = (0).ToString("$0.00");
+            lblTotalIngresos.Text = (0).ToString("$0.00");
+            lblTotalNeto.Text = (0).ToString("$0.00");
+
+            txbEmpleado.Focus();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            DialogResult r = MessageBox.Show("Seguro que desea salir?", "Pagos", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if(r == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
 
 
+
+        public void mostrarFecha()
+        {
+            lblFechaActual.Text = DateTime.Now.ToShortDateString();
+        }
+
+        public void mostrarMesActual()
+        {
+            txbMesConsultado.Text = DateTime.Now.Month.ToString();
+        }
+
+        private void dtFechaIngreso_ValueChanged(object sender, EventArgs e)
+        {
+            txbAnios.Text = (DateTime.Now.Year - dtFechaIngreso.Value.Year).ToString();
         }
     }
 }

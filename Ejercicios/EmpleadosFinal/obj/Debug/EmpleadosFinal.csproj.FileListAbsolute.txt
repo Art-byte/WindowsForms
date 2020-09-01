@@ -1,0 +1,10 @@
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\EmpleadosFinal\bin\Debug\EmpleadosFinal.exe.config
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\EmpleadosFinal\bin\Debug\EmpleadosFinal.exe
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\EmpleadosFinal\bin\Debug\EmpleadosFinal.pdb
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\EmpleadosFinal\obj\Debug\EmpleadosFinal.csprojAssemblyReference.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\EmpleadosFinal\obj\Debug\EmpleadosFinal.Form1.resources
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\EmpleadosFinal\obj\Debug\EmpleadosFinal.Properties.Resources.resources
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\EmpleadosFinal\obj\Debug\EmpleadosFinal.csproj.GenerateResource.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\EmpleadosFinal\obj\Debug\EmpleadosFinal.csproj.CoreCompileInputs.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\EmpleadosFinal\obj\Debug\EmpleadosFinal.exe
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\EmpleadosFinal\obj\Debug\EmpleadosFinal.pdb
