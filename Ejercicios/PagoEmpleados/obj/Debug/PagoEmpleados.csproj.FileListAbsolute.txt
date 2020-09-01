@@ -1,0 +1,10 @@
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\PagoEmpleados\bin\Debug\PagoEmpleados.exe.config
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\PagoEmpleados\bin\Debug\PagoEmpleados.exe
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\PagoEmpleados\bin\Debug\PagoEmpleados.pdb
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\PagoEmpleados\obj\Debug\PagoEmpleados.csprojAssemblyReference.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\PagoEmpleados\obj\Debug\PagoEmpleados.Form1.resources
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\PagoEmpleados\obj\Debug\PagoEmpleados.Properties.Resources.resources
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\PagoEmpleados\obj\Debug\PagoEmpleados.csproj.GenerateResource.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\PagoEmpleados\obj\Debug\PagoEmpleados.csproj.CoreCompileInputs.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\PagoEmpleados\obj\Debug\PagoEmpleados.exe
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\PagoEmpleados\obj\Debug\PagoEmpleados.pdb
