@@ -1,0 +1,10 @@
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\Area_Volumen\bin\Debug\Area_Volumen.exe.config
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\Area_Volumen\bin\Debug\Area_Volumen.exe
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\Area_Volumen\bin\Debug\Area_Volumen.pdb
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\Area_Volumen\obj\Debug\Area_Volumen.csprojAssemblyReference.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\Area_Volumen\obj\Debug\Area_Volumen.Form1.resources
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\Area_Volumen\obj\Debug\Area_Volumen.Properties.Resources.resources
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\Area_Volumen\obj\Debug\Area_Volumen.csproj.GenerateResource.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\Area_Volumen\obj\Debug\Area_Volumen.csproj.CoreCompileInputs.cache
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\Area_Volumen\obj\Debug\Area_Volumen.exe
+C:\Users\Arturo\Desktop\WindowsForms\Ejercicios\Area_Volumen\obj\Debug\Area_Volumen.pdb
